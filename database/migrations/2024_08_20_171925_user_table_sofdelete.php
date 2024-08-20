@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::table('estudiante', function (Blueprint $table) {
             $table->softDeletes();
+            //creada despues de crear la migracion table_sofdelete
         });
     }
 
